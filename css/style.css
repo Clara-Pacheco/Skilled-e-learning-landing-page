@@ -135,7 +135,7 @@ color: #13183F;
   height: 28.3rem;
 
   margin: 0 1.6rem 1.6rem 1.6rem;
-  
+
   background: #FFFFFF;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
@@ -194,5 +194,47 @@ color: #13183F;
   color: #F74780;
 
   margin: 0 21.1rem 3.2rem 2.8rem;
+
+}
+
+footer {
+  width: 37.5rem;
+  height: 12rem;
+
+  background: #13183F;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo-footer {
+  
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  color: #FFFFFF;
+
+  margin-left: 1.6rem;
+
+}
+
+footer .callToAction-footer {
+  width: 14rem;
+  height: 4.8rem;
+
+  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+  border-radius: 2.8rem;
+  border: none;
+
+ 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #FFFFFF;
+
+  margin-right: 1.6rem;
 
 }
