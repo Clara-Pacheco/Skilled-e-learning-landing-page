@@ -6,7 +6,7 @@
   width: 37.5rem;
   height:261.5rem;
 
-  margin: auto;
+  /* margin: auto; */
 }
 
 body {
@@ -237,4 +237,33 @@ footer .callToAction-footer {
 
   margin-right: 1.6rem;
 
+}
+
+/*Media Queries*/
+
+@media(min-width: 37.6rem){
+   header {
+    display: flex;
+    gap: 46rem;
+   }
+
+  .introduction {
+    display: flex;
+    gap: 3.31rem;
+  }
+
+  .introduction img {
+    
+  }
+}
+
+@media(min-width: 76.9rem){
+  header {
+    display: flex;
+    gap: 82.9rem;
+   }
+  .introduction {
+    display: flex;
+    gap: 16.2rem;
+  }
 }
