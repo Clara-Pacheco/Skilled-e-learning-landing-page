@@ -272,6 +272,14 @@ footer .callToAction-footer {
   header .callToAction-header {
     margin-right: 4rem;
   }
+
+  .introduction .text-introduction-section {
+    margin-left: 3.9rem;
+  }
+
+  .introduction {
+    display: flex;
+  }
   
   .introduction .img-mobile {
     display: none;
@@ -279,15 +287,20 @@ footer .callToAction-footer {
   
   .introduction .img-tablet {
     display: block;
+    width: 59rem;
+    height: 64rem;
+
+    
+    position: absolute;
+    left: 538px;
+    top: -92px;
+
   }
   
   .introduction .img-pc {
     display: none;
   }
 
-  .introduction {
-    display: flex;
-  }
 
   button .callToAction-header {
     width: 100px;
@@ -296,6 +309,9 @@ footer .callToAction-footer {
   .courses {
     width: 68.9rem;
     height: 91.3rem;
+
+    margin-top: 9.3rem;
+    margin-bottom: 8.6rem;
 
     display: grid;
     grid-template-areas: "P P A A"
@@ -344,6 +360,24 @@ footer .callToAction-footer {
   .card-business {
     grid-area: B;
   }
+
+  footer {
+    width: 76.8rem;
+    height: 12rem;
+
+  }
+
+  footer .logo-footer {
+  
+    margin-left: 4rem;
+  
+  }
+
+  footer .callToAction-footer {
+    margin-right: 10.9rem;
+  
+  }
+  
 
  }
 
