@@ -303,7 +303,7 @@ footer .callToAction-footer {
   
   .introduction .img-tablet {
     display: block;
-    width: 66rem;
+    max-width: 66rem;
     height: 64rem;
 
     
