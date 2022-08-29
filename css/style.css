@@ -3,7 +3,7 @@
 }
 
 .main-container {
-  width: 37.5rem;
+  max-width: 37.5rem;
   height:261.5rem;
 
   /* margin: auto; */
@@ -94,6 +94,18 @@ color: #13183F;
   margin: 0 19.2rem 4.6rem 1.6rem;
 }
 
+.introduction .img-mobile {
+  display: block;
+}
+
+.introduction .img-tablet {
+  display:none;
+}
+
+.introduction .img-pc {
+  display: none;
+}
+
 .courses {
   width: 37.5rem;
   height: 169.5rem;
@@ -134,7 +146,7 @@ color: #13183F;
   width: 34.3rem;
   height: 28.3rem;
 
-  margin: 0 1.6rem 1.6rem 1.6rem;
+  margin: 40px 1.6rem 1.6rem 1.6rem;
 
   background: #FFFFFF;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
@@ -146,7 +158,7 @@ color: #13183F;
 .card-photography .icon,
 .card-crypto .icon,
 .card-business .icon {
-  margin: 0 25.9rem 2.4rem 2.8rem;
+  margin: -20px 25.9rem 2.4rem 2.8rem;
 }
 
 .card-animation h3,
@@ -239,31 +251,51 @@ footer .callToAction-footer {
 
 }
 
-/*Media Queries*/
+/* MEDIA QUERIES */
 
-@media(min-width: 37.6rem){
-   header {
-    display: flex;
-    gap: 46rem;
-   }
+ @media screen and (min-width: 768px){ 
 
-  .introduction {
-    display: flex;
-    gap: 3.31rem;
-  }
-
-  .introduction img {
-    
-  }
-}
-
-@media(min-width: 76.9rem){
   header {
+    width: 68.9rem;
+    height: 4.8rem;
+    margin: 2.4rem 4rem 9.9rem 0;
+  
     display: flex;
-    gap: 82.9rem;
-   }
+    justify-content: space-between;
+      
+  }
+
+  header .logo-header {
+    margin-left: 3.9rem;
+  }
+
+  header .callToAction-header {
+    margin-right: 4rem;
+  }
+  
+  .introduction .img-mobile {
+    display: none;
+  }
+  
+  .introduction .img-tablet {
+    display: block;
+  }
+  
+  .introduction .img-pc {
+    display: none;
+  }
+
   .introduction {
     display: flex;
-    gap: 16.2rem;
   }
-}
+
+  button .callToAction-header {
+    width: 100px;
+  }
+
+ }
+
+
+
+
+
