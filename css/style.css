@@ -252,6 +252,7 @@ footer .callToAction-footer {
 }
 
 /* MEDIA QUERIES */
+/*FOR TABLET DEVICES*/
 
  @media screen and (min-width: 768px){ 
 
@@ -390,10 +391,122 @@ footer .callToAction-footer {
   
   }
   
-
  }
 
+ /*FOR DESKTOP DEVICES*/
+
+ @media screen and (min-width:1440px){
+  
+ 
+  header .callToAction-header {
+   position: absolute;
+   right: 16.5rem;
+   left: 88.8rem;
+   z-index: 1;
+  }
+
+  .introduction .text-introduction-section {
+    margin-bottom: 22.6rem;
+  }
 
 
+  .introduction .img-mobile {
+    display: none;
+  }
+  
+  .introduction .img-tablet {
+    display: none;
+    
+  }
+  
+  .introduction .img-pc {
+    display: block;
+    position: absolute;
+    left: 784px;
+    top: -260.13px;
 
 
+    width: 99.16rem;
+    height: 94rem;
+  }
+
+  .courses {
+    width: 111rem;
+    height: 74.8rem;
+  }
+
+  .courses .popular-courses {
+    width: 33.9rem;
+    height: 28.3rem;
+    border-radius: 10px;
+    text-align: start;
+
+    margin-top: 40px;
+  }
+
+  .courses .popular-courses .text-popular-courses {
+    margin: 5.6rem 2rem 14rem 3.2rem;
+  }
+
+  .card-animation,
+  .card-design,
+  .card-photography,
+  .card-crypto,
+  .card-business {
+  width: 33.9rem;
+  height: 28.3rem;
+  
+  }
+
+  .courses {
+    width: 111rem;
+    height: 74.8rem;
+
+    /* margin-top: 83.7rem; */
+    margin-bottom: 14rem;
+
+    display: grid;
+    grid-template-areas: "P P A A D D"
+                         "F F C C B B";
+                        
+  }
+
+  footer {
+    width: 144rem;
+    height: 12rem;
+
+  }
+
+  .footer-container {
+    width: 110rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  }
+
+
+ @media screen and (min-width: 1680px){ 
+
+  header .callToAction-header {
+    position: absolute;
+    right: 27.5rem;
+    z-index: 1;
+   }
+
+  .introduction .img-pc {
+    display: block;
+    position: absolute;
+    left: 1020rem;
+    top: -34.41rem;
+
+  
+    max-width: 99.16rem;
+    height: 70rem;
+  }
+
+ 
+  
+
+}
