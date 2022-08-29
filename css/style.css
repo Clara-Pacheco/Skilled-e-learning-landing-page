@@ -220,6 +220,12 @@ footer {
   align-items: center;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer .logo-footer {
   
   font-style: normal;
@@ -380,15 +386,9 @@ footer .callToAction-footer {
 
   }
 
-  footer .logo-footer {
-  
-    margin-left: 4rem;
-  
-  }
-
-  footer .callToAction-footer {
-    margin-right: 10.9rem;
-  
+  .footer-container {
+    width: 68.9rem;
+    height: 4.8rem;
   }
   
  }
@@ -478,10 +478,8 @@ footer .callToAction-footer {
   }
 
   .footer-container {
-    width: 110rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 111rem;
+    height: 5.6rem;
   }
 
   }
@@ -498,15 +496,22 @@ footer .callToAction-footer {
   .introduction .img-pc {
     display: block;
     position: absolute;
-    left: 1020rem;
-    top: -34.41rem;
+    /* left: 1020rem; */
+    top: -14.41rem;
 
   
     max-width: 99.16rem;
     height: 70rem;
   }
 
+  .courses  {
+    
+    margin-top: -11.4rem;
+  }
  
-  
+  .footer-container {
+    width: 120rem;
+    height: 6rem;
+  }
 
 }
