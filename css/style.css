@@ -293,6 +293,58 @@ footer .callToAction-footer {
     width: 100px;
   }
 
+  .courses {
+    width: 68.9rem;
+    height: 91.3rem;
+
+    display: grid;
+    grid-template-areas: "P P A A"
+                         "D D F F"
+                         "C C B B";
+  }
+
+  .courses .popular-courses {
+    width: 33.9rem;
+    height: 25.9rem;
+    border-radius: 10px;
+  }
+
+  .card-animation,
+  .card-design,
+  .card-photography,
+  .card-crypto,
+  .card-business {
+  width: 33.9rem;
+  height: 28.3rem;
+  
+
+  }
+
+
+  .popular-courses {
+    grid-area: P;
+  }
+
+  .card-animation {
+    grid-area: A;
+  }
+
+  .card-design {
+    grid-area: D;
+  }
+
+  .card-photography {
+    grid-area: F;
+  }
+
+  .card-crypto {
+    grid-area: C;
+  }
+
+  .card-business {
+    grid-area: B;
+  }
+
  }
 
 
