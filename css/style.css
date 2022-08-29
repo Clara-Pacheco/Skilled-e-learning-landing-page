@@ -287,12 +287,12 @@ footer .callToAction-footer {
   
   .introduction .img-tablet {
     display: block;
-    width: 59rem;
+    width: 66rem;
     height: 64rem;
 
     
     position: absolute;
-    left: 538px;
+    left: 530px;
     top: -92px;
 
   }
@@ -304,6 +304,11 @@ footer .callToAction-footer {
 
   button .callToAction-header {
     width: 100px;
+  }
+
+  .icon {
+    width: 56px;
+    height: 56px;
   }
 
   .courses {
@@ -321,8 +326,15 @@ footer .callToAction-footer {
 
   .courses .popular-courses {
     width: 33.9rem;
-    height: 25.9rem;
+    height: 28.3rem;
     border-radius: 10px;
+    text-align: start;
+
+    margin-top: 40px;
+  }
+
+  .courses .popular-courses .text-popular-courses {
+    margin: 5.6rem 2rem 14rem 3.2rem;
   }
 
   .card-animation,
